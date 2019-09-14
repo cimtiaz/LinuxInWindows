@@ -1,7 +1,7 @@
 @ECHO OFF
-REM ** This file is help you to use "rm" command in Windows instead of DEL or ERASE
+REM ** This file is help you to use "rm" command delete a file in Windows instead of DEL or ERASE
 
-if [%1]==[-h] (
+IF [%1]==[-h] (
   DEL /?
 ) ELSE (
   DEL %*
