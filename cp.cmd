@@ -1,7 +1,7 @@
 @ECHO OFF
-REM ** This file is help you to use "cp" command in Windows instead of COPY
+REM ** This file is help you to use "cp" command to copy file(s) in Windows instead of COPY
 
-if [%1]==[-h] (
+IF [%1]==[-h] (
   COPY /?
 ) ELSE (
   COPY %*
